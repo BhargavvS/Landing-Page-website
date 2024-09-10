@@ -1,0 +1,147 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+
+.sect1{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.sect1{
+    background-image: url('developer.png');
+    min-height: 100vh;
+}
+
+.ptext{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    word-spacing: 2px;
+}
+
+.big{
+    font-size: 75px;
+}
+.small{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.inner1{
+    text-align: left;
+}
+
+.inner2{
+    font-size: 65px;
+}
+
+
+.large{
+    font-size: 72px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.bold{
+    font-size: 92px;
+    font-weight: 400;
+}
+
+.card1 , .card2 , .card3{
+    width: 303px;
+    height: 380px;
+    /* border: 2px solid #fff; */
+    box-shadow: 1px 1px 7px 0px black;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out
+}
+
+.content{
+    padding: 22px;
+    /* z-index: auto; */
+}
+
+.container{
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 160px;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.box{
+    display: flex;
+}
+
+.box1{
+    /* border: 2px solid black; */
+    width: 50%;
+    background-color: rgb(92, 92, 3);
+    height: 210px;
+    padding: 40px;
+}
+.box2{
+    /* border: 2px solid black; */
+    width: 50%;
+    background-color: rgb(144, 40, 2);
+    height: 210px;
+    padding: 40px;
+}
+
+h1{
+    font-size: 70px;
+    margin: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    padding: 10px 0px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.last{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot{
+    color: #fff;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+
+.foot2{
+    text-align: center;
+    padding: 15px;
+
+}
+
+.card1 , .card2 , .card3:hover{
+    transition: 0.2s ease-in-out
+}
